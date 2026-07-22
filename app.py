@@ -1,15 +1,4 @@
-"""
-app.py
-AI GitHub Repository Analyzer - Streamlit Dashboard
 
-Run with:  streamlit run app.py
-
-What it does:
-  - Pulls issues + commits from a public GitHub repo
-  - ML Model 1: classifies issues into Bug / Feature / Question / Docs / Other
-  - ML Model 2: scores files by "bug-prone" risk using commit history
-  - Shows contributor activity and commit trend charts
-"""
 
 import streamlit as st
 import plotly.express as px
